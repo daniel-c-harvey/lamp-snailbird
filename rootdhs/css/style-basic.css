@@ -1,0 +1,296 @@
+/*	Version 8.0	, remember to change the config value when updating CSS*/
+
+body {
+	background-color: #E0E0E0;
+	/*font-family: Palatino Linotype;*/
+	/*font-family: "PT Sans",Arial,Helvetica,sans-serif;*/
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family: Quicksand;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.4em;
+	color: #404040;
+}
+
+a {
+	color: #5C96CF;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: Asap;
+	font-weight: 700;
+	color: #2F2F2F;
+}
+
+h3 {
+	font-family: Asap;
+	color: #2F2F2F;
+}
+
+h4 {
+	font-family: Asap;
+	color: #2F2F2F;
+}
+
+br {
+	clear: both;
+}
+
+ul {
+	color: #404040;
+}
+
+.redheader {
+	font-family: Titillium;
+	color: #D4142B;
+}
+.aquaheader {
+	font-family: Titillium;
+	color: #40A79C;
+}
+
+.goldheader {
+	font-family: Titillium;
+	color: #98930A;
+}
+
+.tealheader {
+	font-family: Titillium;
+	color: #00B675;
+}
+
+.lavenderheader {
+	font-family: Titillium;
+	color: #7A68AE;
+}
+
+.greenheader {
+	font-family: Titillium;
+	color: #3bb662;
+}
+
+#main {
+	background-color: #FFFFFF;
+	position: relative;
+	width: 75%;
+	min-width: 564px;
+	max-width: 1180px;
+	border-top: 0px;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 75px;
+	padding-top: 35px;
+}
+
+.classsummary {
+	/*min-width: 1100px;*/
+}
+
+.classsummary img#classImage {
+	width: 100%;
+	padding: 0px;
+	padding-left: 3%;
+	padding-right: 1%;
+	padding-top: 5%;
+	margin: 0px;
+}
+
+.classsummary h3 {
+	text-align: center;
+}
+
+section.equal {
+	width: 46%;
+	/*padding: 2%;*/
+	/*clear: none;*/
+}
+
+section.classText {
+	float: left;
+	/*padding: 2%;*/
+	min-width: 564px;
+	width: 53%;
+}
+
+section.classImage {
+	float: left;
+	/*padding: 2%;*/
+	width: 500px;
+}
+
+section.single {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.classes3 {
+	width: 100%;
+}
+
+div.classes2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.classes3 img {
+	margin: auto;
+	padding: 2%;
+	border: 0px;
+	border-radius: 20px;
+	width: 28%;
+	/*height: 100%;*/
+	transition: box-shadow 0.35s, border 0.15s;
+	-webkit-transition: box-shadow 0.35s, border 0.15s;
+}
+
+.classes3 img:hover {
+	box-shadow: 0px 10px 10px #8F8F8F;
+}
+
+.classes2 img {
+	margin: auto;
+	padding: 2%;
+	border: 0px;
+	border-radius: 20px;
+	width: 45%;
+	transition: box-shadow 0.35s, border 0.15s;
+	-webkit-transition: box-shadow 0.35s, border 0.15s;
+}
+
+.classes2 img:hover {
+	box-shadow: 0px 10px 10px #8F8F8F;
+}
+
+img.classesdescription {
+	opacity: 0.0;
+	transition: opacity, 0.35s;
+	-webkit-transition: opacity, 0.35s;
+}
+
+img.classesdescription:hover {
+	opacity: 1.0;
+	box-shadow: 0px 10px 10px #FFFFFF;
+}
+
+.centeredimage {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.centeredtext {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.centeredimage img {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2%;
+	border: 0px;
+	width: 100%;
+}
+
+
+/*  For the Home Page Slideshow */
+div #slideshow {
+	position:relative;
+    height:600px;
+	width: 900px;
+	box-shadow: -5px 8px 10px #555555;
+	margin-left: auto;
+	margin-right: auto;
+}
+#slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:8;
+	height: inherit;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2%;
+	border: 0px;
+}
+#slideshow img.active {
+    z-index: 10;
+}
+#slideshow img.last-active {
+    z-index: 9;
+}
+
+
+/*  For the quotes on the About page */
+.testimonial {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+.quote {
+	text-align: justify;
+	font-family: Capsuula;
+	font-size: 1.56em;
+	color: #8868BA;
+}
+.source {
+	text-align: right;
+	font-family: Capsuula;
+	font-size: 1.3em;
+	color: #3BB662;
+}
+
+
+.collumns {
+	float: left;
+	clear: none;
+	text-align: justify;
+	width: 28%;
+	height: auto;
+	padding: 0px;
+	padding-left: 2.6%;
+	padding-right: 2.6%;
+}
+
+/*.collumns a {
+	color: #D4142B;
+}*/
+
+.grittypes {
+	clear: both;
+	height: 125px;
+	width: 100%;
+	min-width: 564px;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url('../font/Quicksand-Regular.otf');
+}
+
+@font-face {
+	font-family: Titillium;
+	src: url('../font/Titillium-Regular.otf');
+}
+
+@font-face {
+		font-family: Asap;
+		src: url('../font/Asap-Regular.otf');
+}
+@font-face {
+	font-family: Capsuula;
+	src: url('../font/Capsuula.ttf');
+}

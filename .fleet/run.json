@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "browser",
+            "name": "Firefox",
+            "browserExecutablePath": "C:/Program Files/Mozilla Firefox/firefox.exe",
+            "url": "localdhs",
+        },
+        
+    ]
+}
