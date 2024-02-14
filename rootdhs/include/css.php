@@ -7,5 +7,5 @@
 	
 	function getCSSVersion(string $cssFile)
 	{
-		return filemtime(getcwd() . '\\css\\' . $cssFile);
+		return filemtime($_SERVER['DOCUMENT_ROOT'] . '\\css\\' . $cssFile);
 	}

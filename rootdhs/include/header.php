@@ -8,5 +8,8 @@
 <nav id="navbar">
 	<ul id="menu">
 		<li><a href="../index.php">Home</a></li>
+		<li><a href="../lab.php">Lab</a></li>
+		<li><a href="../studio.php">Studio</a></li>
+		<li><a href="../about.php">About</a></li>
 	</ul>
 </nav>

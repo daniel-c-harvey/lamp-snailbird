@@ -10,11 +10,15 @@
             "options": {
                 "cwd": "C:\\Program Files\\Mozilla Firefox\\"
             },
-            "args": ["-new-window", "localdhs"],
+            "args": [
+                "-new-window",
+                "localdhs"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
