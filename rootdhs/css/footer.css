@@ -2,7 +2,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: Quicksand;
+    font-family: ImpactLabel;
     color: #3F3F3F;
     text-align: center;
 }
@@ -23,6 +23,6 @@ ul.foot a {
 }
 
 @font-face {
-    font-family: Quicksand;
-    src: url('../font/Quicksand-Regular.otf');
+    font-family: ImpactLabel;
+    src: url('../font/Impact_Label_Reversed.ttf');
 }

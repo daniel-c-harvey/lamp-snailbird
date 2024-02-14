@@ -28,24 +28,23 @@
     padding-top: 1px;
     padding-bottom: 1px;
     position: relative;
-    background: linear-gradient(#bb80b3, #783496); /* Standard syntax (must be last) */
+    background: linear-gradient(#ac82fa, #d148b8); /* Standard syntax (must be last) */
     text-align: center;
 
 }
 
 ul#menu li {
     display: inline;
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: #666699;
     position: relative;
 }
 
 ul#menu li a {
-    font-family: Quicksand;
+    font-family: ImpactLabel;
     font-size: inherit;
     font-weight: 300;
     color: #002348;
-    /*color: #664499;*/ /* trying new colors */
     text-decoration: none;
     margin: 0;
     margin-left: 3%;
@@ -56,11 +55,10 @@ ul#menu li a {
 
 ul#menu li a:hover {
     color: #8000ff;
-    /*color: #662299;*/ /* trying new colors */
     text-shadow: 0 0 7px #b56aff;
 }
 
 @font-face {
-    font-family: Quicksand;
-    src: url('../font/Quicksand-Regular.otf');
+    font-family: ImpactLabel;
+    src: url('../font/Impact_Label_Reversed.ttf');
 }

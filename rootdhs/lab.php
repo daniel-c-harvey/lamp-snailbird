@@ -16,7 +16,7 @@
 
 <body>
 	<?php include('include/header.php'); ?>
-	<?php include('include/home.php'); ?>
+	<?php include('include/lab.php'); ?>
 	<br />
 	<?php include ('include/footer.php'); ?>
 </body>
