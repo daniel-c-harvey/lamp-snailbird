@@ -6,5 +6,3 @@
 		<li><a href="mailto:daniel@danielharvey.space">daniel@danielharvey.space</a></li>
 	</ul>
 </div>
-<br>
-<br>

@@ -1,6 +1,7 @@
 
 
 body {
+	background-image: url('../images/photos/bf-22-schematic-background.png');
 	background-color: #1f292e;
 	/*font-family: Palatino Linotype;*/
 	/*font-family: "PT Sans",Arial,Helvetica,sans-serif;*/
@@ -79,23 +80,27 @@ ul {
 	color: #3bb662;
 }
 
-#main {
-	background-color: #2b2b2b;
-	position: relative;
+.contentstrip {
+    background-color: #10181d;
 	width: 75%;
 	min-width: 564px;
 	max-width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
 	border: 0 2px 2px 2px solid #313335;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 75px;
-	padding-top: 35px;
 }
 
-.classsummary {
-	/*min-width: 1100px;*/
+#main {
+	background-color: #2b2b2b;
+	position: relative;
+	width: 100%;
+	border: 0 2px 2px 2px solid #313335;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	/* padding: 75px; */
 }
 
 .classsummary img#classImage {
