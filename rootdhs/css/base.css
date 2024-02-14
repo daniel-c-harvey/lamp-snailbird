@@ -1,7 +1,7 @@
-/*	Version 8.0	, remember to change the config value when updating CSS*/
+
 
 body {
-	background-color: #E0E0E0;
+	background-color: #1f292e;
 	/*font-family: Palatino Linotype;*/
 	/*font-family: "PT Sans",Arial,Helvetica,sans-serif;*/
 	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
@@ -14,14 +14,14 @@ body {
 p {
 	text-align: justify;
 	line-height: 1.4em;
-	color: #404040;
+	color: #bababa;
 }
 
 a {
-	color: #5C96CF;
+	/* color: #5C96CF; */
 	text-decoration: none;
 }
-
+/*  */
 h2 {
 	font-family: Asap;
 	font-weight: 700;
@@ -76,15 +76,12 @@ ul {
 }
 
 #main {
-	background-color: #FFFFFF;
+	background-color: #2b2b2b;
 	position: relative;
 	width: 75%;
 	min-width: 564px;
 	max-width: 1180px;
-	border-top: 0px;
-	border-left: 2px solid gray;
-	border-right: 2px solid gray;
-	border-bottom: 2px solid gray;
+	border: 0 2px 2px 2px solid #313335;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-left: auto;

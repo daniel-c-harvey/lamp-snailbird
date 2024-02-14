@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Browse Site",
+            "type": "process",
+            "command": "firefox.exe",
+            "options": {
+                "cwd": "C:\\Program Files\\Mozilla Firefox\\"
+            },
+            "args": ["-new-window", "localdhs"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
