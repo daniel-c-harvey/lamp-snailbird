@@ -19,6 +19,12 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Package for Deployment",
+            "type": "shell",
+            "command": "cd rootdhs; pwd; rm full-package-deploy.zip; zip -r full-package-deploy.zip ./*",
+            "group": "none"
         }
     ]
 }
