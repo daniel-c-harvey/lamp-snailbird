@@ -16,8 +16,9 @@
 
 <body>
 	<?php include('include/header.php'); ?>
-	<?php include('include/lab.php'); ?>
-	<br />
-	<?php include ('include/footer.php'); ?>
+	<div class="contentstrip">
+		<?php include('include/lab.php'); ?>
+		<?php include ('include/footer.php'); ?>
+	</div>
 </body>
 </html>

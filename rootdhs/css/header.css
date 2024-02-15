@@ -1,3 +1,12 @@
+
+#outerheader {
+    width: 100%;
+    margin: 0;
+    padding: auto;
+    background-image: none;
+    background-color: #1f292e;
+}
+
 #header {
     width: 60%;
     min-width: 400px;
