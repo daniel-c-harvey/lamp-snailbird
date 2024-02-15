@@ -23,7 +23,7 @@
         {
             "label": "Package for Deployment",
             "type": "shell",
-            "command": "cd rootdhs; pwd; rm full-package-deploy.zip; zip -r full-package-deploy.zip ./*",
+            "command": "rm full-package-deploy.zip; cd rootdhs; zip -r ../full-package-deploy.zip ./*; explorer ..;",
             "group": "none"
         }
     ]
