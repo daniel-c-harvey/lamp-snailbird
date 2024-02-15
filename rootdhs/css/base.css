@@ -10,12 +10,11 @@ body {
 }
 
 p {
-	text-align: justify;
 	line-height: 1.4em;
 	color: #bababa;
 }
 
-h1, h2, h3, h4, h5, h6, p, .centeredtext {
+h1, h2, h3, h4, h5, h6, p {
 	text-align: justify;
 }
 
@@ -102,16 +101,16 @@ ul {
 	padding-bottom: 20px;
 }
 
+.post {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
 .centeredimage {
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
-}
-
-.centeredtext {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
 }
 
 .centeredimage img {
