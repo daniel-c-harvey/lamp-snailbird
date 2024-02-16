@@ -1,26 +1,37 @@
-div.row * {
-    margin: auto;
-	padding: 2%;
-	border: 0px;
-	border-radius: 20px;
-    transition: box-shadow 0.35s, border 0.15s;
-	-webkit-transition: box-shadow 0.35s, border 0.15s;
+.row {
+	width: 100%;
+	overflow: hidden;
 }
 
-div.threecolumn {
+.cell {
+    margin: auto;
+	float: left;
+	padding: 2%;
+	border: 0px;
+}
+/* 
+.row>.cell>* {
+	margin: auto;
+	width: 100%;
+} */
+
+.threecolumn {
 	width: 100%;
     margin-left: 0;
 	margin-right: 0;
 }
 
-
-.threecolumn * {
+.threecolumn div {
 	width: 28%;
-	
+	/*  */
 }
 
-div.twocolumn {
+.twocolumn {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.twocolumn div {
+	width: 45%;
 }
