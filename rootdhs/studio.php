@@ -15,9 +15,10 @@
 </head>
 
 <body>
-	<?php include('include/header.php'); ?>
-	<?php include('include/studio.php'); ?>
-	<br />
-	<?php include ('include/footer.php'); ?>
+<?php include('include/header.php'); ?>
+	<div class="contentstrip">
+		<?php include('include/studio.php'); ?>
+		<?php include ('include/footer.php'); ?>
+	</div>
 </body>
 </html>
