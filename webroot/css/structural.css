@@ -1,0 +1,26 @@
+div.row * {
+    margin: auto;
+	padding: 2%;
+	border: 0px;
+	border-radius: 20px;
+    transition: box-shadow 0.35s, border 0.15s;
+	-webkit-transition: box-shadow 0.35s, border 0.15s;
+}
+
+div.threecolumn {
+	width: 100%;
+    margin-left: 0;
+	margin-right: 0;
+}
+
+
+.threecolumn * {
+	width: 28%;
+	
+}
+
+div.twocolumn {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
