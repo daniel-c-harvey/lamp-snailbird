@@ -24,17 +24,10 @@ a {
 }
 /*  */
 h2 {
-	font-family: Asap;
 	font-weight: 700;
-	color: #2F2F2F;
 }
 
-h3 {
-	font-family: Asap;
-	color: #2F2F2F;
-}
-
-h4 {
+h2, h3, h4 {
 	font-family: Asap;
 	color: #2F2F2F;
 }
@@ -47,9 +40,9 @@ ul {
 	color: #404040;
 }
 
-.redheader {
+.pinkheader {
 	font-family: Titillium;
-	color: #D4142B;
+	color: #ca3875;
 }
 
 .aquaheader {

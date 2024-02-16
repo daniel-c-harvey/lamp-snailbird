@@ -12,7 +12,7 @@
             },
             "args": [
                 "-new-window",
-                "localdhs"
+                "localsnail"
             ],
             "group": {
                 "kind": "build",
@@ -23,7 +23,7 @@
         {
             "label": "Package for Deployment",
             "type": "shell",
-            "command": "rm full-package-deploy.zip; cd rootdhs; zip -r ../full-package-deploy.zip ./*; explorer ..;",
+            "command": "rm full-package-deploy.zip; cd webroot; zip -r ../full-package-deploy.zip ./*; explorer ..;",
             "group": "none"
         }
     ]
