@@ -18,6 +18,35 @@ h1, h2, h3, h4, h5, h6, p {
 	text-align: justify;
 }
 
+.header {
+	text-align: justify;
+	font-family: Titillium;
+}
+
+.pink {
+	color: #ca3875;
+}
+
+.aqua {
+	color: #40A79C;
+}
+
+.gold {
+	color: #98930A;
+}
+
+.teal {
+	color: #00B675;
+}
+
+.lavender {
+	color: #7A68AE;
+}
+
+.green {
+	color: #3bb662;
+}
+
 a {
 	color: #c45ccf;
 	text-decoration: none;
@@ -25,11 +54,6 @@ a {
 /*  */
 h2 {
 	font-weight: 700;
-}
-
-h2, h3, h4 {
-	font-family: Asap;
-	color: #2F2F2F;
 }
 
 br {
@@ -40,37 +64,9 @@ ul {
 	color: #404040;
 }
 
-.pinkheader {
-	font-family: Titillium;
-	color: #ca3875;
-}
 
-.aquaheader {
-	font-family: Titillium;
-	color: #40A79C;
-}
 
-.goldheader {
-	font-family: Titillium;
-	color: #98930A;
-}
-
-.tealheader {
-	font-family: Titillium;
-	color: #00B675;
-}
-
-.lavenderheader {
-	font-family: Titillium;
-	color: #7A68AE;
-}
-
-.greenheader {
-	font-family: Titillium;
-	color: #3bb662;
-}
-
-.contentstrip {
+#contentstrip {
     background-color: #10181d;
 	width: 75%;
 	min-width: 564px;
@@ -98,12 +94,15 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
 .centeredimage {
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	width: 100%;
 }
 
 .centeredimage img {
@@ -116,9 +115,42 @@ ul {
 
 .bandcampplayer {
 	border: 0;
-	width: 220px;
-	height: 220px;
+	width: 150px;
+	height: 150px;
 	margin: auto;
+}
+
+.post>.content {
+	height: 12.3em;
+	overflow: hidden;
+}
+
+.morecontent {
+	padding: 8px;
+	margin-left: auto;
+	width: 60px;
+}
+
+.morecontent * {
+	margin: auto;
+	float: right;
+}
+
+.morecontent .expandpost {
+	width: 55px;
+	padding: 2px;
+	color: #c45ccf;
+	background-color: #10181d;
+	border: 0;
+	border-radius: 2px;
+	font-family: Titillium;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.morecontent .expandpost:hover {
+	font-weight: bold;
+	padding: 3px;
 }
 
 @font-face {

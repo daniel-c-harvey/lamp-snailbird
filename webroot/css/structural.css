@@ -5,15 +5,11 @@
 
 .cell {
     margin: auto;
+	width: 18%;
 	float: left;
 	padding: 2%;
 	border: 0px;
 }
-/* 
-.row>.cell>* {
-	margin: auto;
-	width: 100%;
-} */
 
 .threecolumn {
 	width: 100%;

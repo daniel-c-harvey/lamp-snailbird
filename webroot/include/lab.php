@@ -1,6 +1,6 @@
 <div id="main">
     <div class="post">
-        <h2 class="tealheader">Snailbird Lab</h2>
+        <h2 class="aqua header">Snailbird Lab</h2>
         <p>
             Recently, after lots of reading, I still didn't know where to start in building my own 
             musical sofware tools.
@@ -9,8 +9,9 @@
             Inspired by Nick Batt's use of Yamaha Setlist for iOS, I thought of creating a similar 
             solution to embedding patching notes into a DAW track for reference during a live session.
         </p>
-
-        <h3 class="tealheader">Patch Notes</h3>
+    </div>
+    <div class="post">
+        <h3 class="teal header">Patch Notes</h3>
         <p>
             Patch Notes is a Digital Audio Workstation plugin designed to afford hardware synthesizer 
             players an easier experience managing patch settings between DAW sessions.  

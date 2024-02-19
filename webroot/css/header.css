@@ -1,5 +1,5 @@
 
-#outerheader {
+#header {
     width: 100%;
     margin: 0;
     padding: auto;
@@ -7,7 +7,7 @@
     background-color: #1f292e;
 }
 
-#header {
+#banner {
     width: 60%;
     min-width: 400px;
     max-width: 1200px;
@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-#banner {
+#banner>a>img {
     width: 100%;
     /*max-width: 80%;*/
     margin: 0;

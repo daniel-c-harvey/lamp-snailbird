@@ -16,7 +16,7 @@
 
 <body>
 	<?php include('include/header.php'); ?>
-	<div class="contentstrip">
+	<div id="contentstrip">
 		<?php include('include/home.php'); ?>
 		<?php include ('include/footer.php'); ?>
 	</div>

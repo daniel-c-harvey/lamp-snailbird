@@ -1,9 +1,9 @@
 <?php linkToStylesheet('header.css'); ?>
 
-<div id="outerheader">
-	<div id="header">
+<div id="header">
+	<div id="banner">
 		<a href="../index.php">
-			<img id="banner" src="../images/logos/snailbird-lab-banner.png" title="Home Page" alt="banner" >
+			<img src="../images/logos/snailbird-lab-banner.png" title="Home Page" alt="banner" >
 		</a>
 	</div>
 </div>
