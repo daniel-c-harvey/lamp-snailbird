@@ -1,4 +1,10 @@
 {
     "php.validate.executablePath": "C:/lib/php7.4.33/php.exe",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "centeredimage"
+    ],
+    "cSpell.ignoreWords": [
+        "Fsquare"
+    ]
 }
