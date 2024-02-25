@@ -1,29 +1,43 @@
+function setPost(id)
+{
+    expandPost(id, true);
+}
+
 function expandPost(id)
 {
-    var identifier = '.content#' + id.toString();
-    var $post = $(identifier);
-    if ($post.length) { // Check if the element exists
-        console.log('element found: ' + identifier + "\n");
-        // var $button = $post.find('expandpost');
-        var $button = $('.expandpost');
-        if ($button.length) {
-            if ($post.css('overflow') == 'hidden') {
-                $post.css({
-                    'height': 'auto',
-                    'overflow': 'unset'
+    expandPost(id, false);
+}
+
+function expandPost(id, set)
+{
+    var post = $('#post' + id.toString());
+    if (post.length) {
+        var content = post.find('.content');
+        var button = post.find('.morecontent .expandpost');
+        if (content.length && button.length) {
+            if (set || button.val() == 'Less') {
+                console.log("shrinking...\n");
+                content.css({
+                    'height': '16em',
+                    'overflow': 'hidden',
+                    'mask': 'linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1)) top, linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)) bottom',
+                    'mask-size': '100% 50%',
+                    'mask-repeat': 'no-repeat'
                 });
-                $button.val("Less");
+                button.val("More");
             } else {
-                $post.css({
-                    'height': '12.3em',
-                    'overflow': 'hidden'
+                console.log("expanding...\n");
+                content.css({
+                    'height': 'auto',
+                    'overflow': 'unset',
+                    'mask': 'none'
                 });
-                $button.val("More");
+                button.val("Less");
             }
         } else {
-            console.error('Could not find the expand button');
+            console.error('Could not find the content');
         }
     } else {
-        console.error('Element with ID ' + id + ' not found');
+        console.error('Post with ID ' + id + ' not found');
     }
 }

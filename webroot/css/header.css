@@ -8,7 +8,7 @@
 }
 
 #banner {
-    width: 60%;
+    width: 50%;
     min-width: 400px;
     max-width: 1200px;
     margin-left: auto;
@@ -24,7 +24,6 @@
 
 #banner>a>img {
     width: 100%;
-    /*max-width: 80%;*/
     margin: 0;
     border: 0;
     padding: 0;

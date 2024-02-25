@@ -7,11 +7,11 @@ body {
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
-	font-size: 0.8em;
+	font-size: 1.0em;
 }
 
 p {
-	line-height: 1.4em;
+	line-height: 1.5em;
 	color: #bababa;
 }
 
@@ -98,11 +98,17 @@ ul {
 
 	padding-top: 20px;
 	padding-bottom: 30px;
+	mask-image: none;
+	mask-size: 100% 100%;
+	mask-repeat: no-repeat;
+	mask-position: 0% 0%;
 }
 
 .centeredimage {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	width: 100%;
 }
 
@@ -119,11 +125,6 @@ ul {
 	width: 150px;
 	height: 150px;
 	margin: auto;
-}
-
-.post>.content {
-	height: 12.3em;
-	overflow: hidden;
 }
 
 .morecontent {
@@ -152,6 +153,24 @@ ul {
 .morecontent .expandpost:hover {
 	font-weight: bold;
 	padding: 3px;
+}
+
+.mediaflow {
+	width: 100%;
+	display: flex;
+	align-items: start;
+}
+
+.mediaflow>* {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.pblock>p {
+	margin-top: 0;
+	margin-bottom: 12px;
 }
 
 @font-face {

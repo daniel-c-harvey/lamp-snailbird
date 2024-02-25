@@ -1,7 +1,10 @@
 <div id="main">
     <?php
         // Define valid routes here.  Maybe move to config at some point...
-        $valid_pages = ['square-peg-releases'];
+        $valid_pages = [
+                        'track/techno-february-2022'
+                        ,'square-peg-releases'
+                       ];
 
         // Check for subpage routings first
         if (isset($_GET['page'])) {
@@ -11,9 +14,10 @@
             }
         } else {
             // Show post feed by default
-            $posts = [[1, 'square-peg-history'], [2, 'test']];
-
-            // design a post feed mechanism to inject throughout the site, Home, other defaults
+            $posts = [  
+                        // [2, '2024-02-21-REAPER-Looper'],
+                       [1, 'square-peg-history']
+                     ];
 
             foreach($posts as $post)
             {
@@ -23,6 +27,4 @@
             }
         }
     ?>
-</div>
-        
 </div>

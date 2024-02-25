@@ -2,7 +2,14 @@
     "php.validate.executablePath": "C:/lib/php7.4.33/php.exe",
     "cmake.configureOnOpen": false,
     "cSpell.words": [
-        "centeredimage"
+        "bandcampplayer",
+        "centeredimage",
+        "contentstrip",
+        "ephemoral",
+        "expandpost",
+        "mediaflow",
+        "morecontent",
+        "pblock"
     ],
     "cSpell.ignoreWords": [
         "Fsquare"

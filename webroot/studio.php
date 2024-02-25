@@ -10,8 +10,7 @@
 	
 	<?php linkToStylesheet('base.css'); 
 		  linkToStylesheet("structural.css"); ?>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="js/slideshow.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="js/post.js"></script>
 </head>
 
