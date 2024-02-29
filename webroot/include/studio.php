@@ -15,7 +15,7 @@
         } else {
             // Show post feed by default
             $posts = [  
-                        // [2, '2024-02-21-REAPER-Looper'],
+                       [2, 'reaper-history'],
                        [1, 'square-peg-history']
                      ];
 
