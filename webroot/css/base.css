@@ -61,12 +61,6 @@ br {
 	clear: both;
 }
 
-ul {
-	color: #404040;
-}
-
-
-
 #contentstrip {
     background-color: #10181d;
 	width: 75%;
@@ -171,6 +165,20 @@ ul {
 .pblock>p {
 	margin-top: 0;
 	margin-bottom: 12px;
+}
+
+/*  TODO move some of the area-specific styling to separate style sheets  */
+ul {
+	color: #bababa;
+	list-style-type: kannada;
+}
+
+.songdetails {
+
+}
+
+.instrument {
+	color:#ca3875;
 }
 
 @font-face {

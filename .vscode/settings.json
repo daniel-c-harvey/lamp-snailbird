@@ -9,7 +9,8 @@
         "expandpost",
         "mediaflow",
         "morecontent",
-        "pblock"
+        "pblock",
+        "songdetails"
     ],
     "cSpell.ignoreWords": [
         "Fsquare"
