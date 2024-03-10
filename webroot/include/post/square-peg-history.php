@@ -19,5 +19,5 @@
     finish that material and release another Square Peg EP sometime not too far down the road.
 </p>
 <p>
-    Check out the <a href="studio?page=square-peg-releases">Releases Highlights</a> page to hear some examples.  I have a goal to add track details for some of the more technically interesting projects.
+    Check out the <a href="studio.php?page=square-peg-releases">Releases Highlights</a> page to hear some examples.  I have a goal to add track details for some of the more technically interesting projects.
 </p>

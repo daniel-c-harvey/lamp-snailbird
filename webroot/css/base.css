@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .aqua {
-	color: #40A79C;
+	color: #12caca;
 }
 
 .gold {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .teal {
-	color: #00B675;
+	color: #00b69e;
 }
 
 .lavender {
@@ -90,8 +90,8 @@ br {
 	margin-right: auto;
 	width: 80%;
 
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-top: 16px;
+	padding-bottom: 10px;
 	mask-image: none;
 	mask-size: 100% 100%;
 	mask-repeat: no-repeat;
@@ -173,18 +173,13 @@ br {
 	margin-bottom: 12px;
 }
 
-/*  TODO move some of the area-specific styling to separate style sheets  */
-ul {
-	color: #bababa;
-	list-style-type: kannada;
-}
-
 .songdetails {
-
+	color: #bababa;
+	list-style-type: katakana;
 }
 
-.instrument {
-	color:#ca3875;
+.songdetails .instrument {
+	color:#3bb662;
 }
 
 @font-face {
