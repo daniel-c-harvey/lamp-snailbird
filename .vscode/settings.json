@@ -10,7 +10,8 @@
         "mediaflow",
         "morecontent",
         "pblock",
-        "songdetails"
+        "songdetails",
+        "youtubeframe"
     ],
     "cSpell.ignoreWords": [
         "Fsquare"

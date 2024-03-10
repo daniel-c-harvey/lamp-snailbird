@@ -12,7 +12,7 @@
             },
             "args": [
                 "-new-window",
-                "localsnail"
+                "http://localsnail"
             ],
             "group": {
                 "kind": "build",
