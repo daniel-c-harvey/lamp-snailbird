@@ -1,14 +1,12 @@
-<h1 class="pink header">Live Session March 9</h1>
-<h3 class="aqua date header">2024 03 10</h3>
+<h1 class="pink header">Live Session February 11</h1>
+<h3 class="aqua date header">2024 02 11</h3>
 <p>
-    I spent last saturday morning working on the synth rig and came up with a little 
-    improvised song over a few sequences and patches I put together.  
-    Not much to write home about but I enjoyed what came out of the jam and wanted 
-    to polish up a recording to publish.
+    This was my first jam from scratch on the synths after moving 1000 miles from Detroit to Charleston SC.  
+    Had a lot of heavy music in my head at the time and this is what I wanted to dance to.
 </p>
 <div class="centeredimage">
 <iframe class="youtubeframe"
-        src="https://www.youtube.com/embed/9WJn3rxWebQ?si=u-4b_n5jDfRx1NFj" 
+        src="https://www.youtube.com/embed/TrIgsIOp6Ng?si=ncSwESCQyAZ9xZxU"
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
@@ -28,9 +26,9 @@
         <span class="instrument">Acid:</span> TD-03 into Boss GE-7 into Zoom MS60B for Tube Sat into Alesis QuadraVerb
     </li>
     <li>
-        <span class="instrument">Glassy Chords:</span> Minilogue XD with internal FX
+        <span class="instrument">Wonky Glitchy Drone:</span> Minilogue XD with internal FX
     </li>
     <li>    
-        <span class="instrument">Twinkling Leads:</span> Neutron through Zoom MS70CDR into QuadraVerb
+        <span class="instrument">Zingy Lead:</span> Neutron through Zoom MS70CDR into QuadraVerb, post-processed with Melda MPhaser
     </li>
 </ul>

@@ -23,7 +23,7 @@
         {
             "label": "Package for Deployment",
             "type": "shell",
-            "command": "rm full-package-deploy.zip; cd webroot; 7z -r ../full-package-deploy.zip ./*; explorer ..;", // todo fix this zip
+            "command": "rm full-package-deploy.zip; cd webroot; zip -r ../full-package-deploy.zip ./*; explorer ..;", // todo fix this zip
             "group": "none"
         }
     ]
