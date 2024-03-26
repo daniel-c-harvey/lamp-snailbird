@@ -13,19 +13,32 @@
                 include("include/studio/$page.php");
             }
         } else {
-            // Show post feed by default
-            $posts = [  
-                       [4, 'live-jam-broadcast-test-2024-03-17'],
-                       [3, 'live-jam-2024-03-09'],
-                       [2, 'live-jam-2024-02-11'],
-                       [1, 'square-peg-history']
-                     ];
-
-            foreach($posts as $post)
-            {
-                $id = $post[0];
-                $name = $post[1];
-                include("include/post.php");
+            $posts = [
+                'live-jam-2024-03-23',
+                'live-jam-2024-03-24',
+                'live-jam-broadcast-test-2024-03-17',
+                'live-jam-2024-03-09',
+                'live-jam-2024-02-11',
+                'square-peg-history'
+            ];
+            
+            // check for post routings next
+            if (isset($_GET['post'])) {
+                $post = htmlspecialchars_decode($_GET['post']);
+                if (in_array($post, $posts, false)) {
+                    $id = 1;
+                    $name = $post;
+                    include("include/post.php");
+                }
+            } else {
+                // Show post feed by default
+                $id = 1;
+                foreach($posts as $post)
+                {
+                    $name = $post[1];
+                    include("include/post.php");
+                    $id += 1;
+                }
             }
         }
     ?>

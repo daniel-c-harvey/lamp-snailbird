@@ -86,6 +86,7 @@ br {
 }
 
 .post {
+	font-size: 0.9em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -176,6 +177,8 @@ br {
 .songdetails {
 	color: #bababa;
 	list-style-type: katakana;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.8em;
 }
 
 .songdetails .instrument {
