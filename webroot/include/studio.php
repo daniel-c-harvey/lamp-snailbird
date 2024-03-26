@@ -35,7 +35,7 @@
                 $id = 1;
                 foreach($posts as $post)
                 {
-                    $name = $post[1];
+                    $name = $post;
                     include("include/post.php");
                     $id += 1;
                 }
