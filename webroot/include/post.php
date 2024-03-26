@@ -8,9 +8,9 @@
                 type="button" 
                 name="more" 
                 value="More" 
-                onclick="expandPost(<?php echo $id; ?>)" />
+                onclick="togglePost(<?php echo $id; ?>)" />
     </div>
 </div>
 <script type="text/javascript">
-    setPost(<?php echo $id; ?>)
+    initPost(<?php echo $id; ?>);
 </script>
