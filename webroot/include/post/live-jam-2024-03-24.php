@@ -2,7 +2,9 @@
     <h1 class="pink header">Live Session March 24</h1>
 </a>
 <h3 class="aqua date header">2024 03 24</h3>
-Wanted to do something faster.
+<p>
+    Wanted to do something faster.
+</p>
 <div class="centeredimage">
 <iframe class="youtubeframe"
         src="https://www.youtube.com/embed/aWXL0yMY10k?si=3YnFHkhkdHtjZUZh" 
