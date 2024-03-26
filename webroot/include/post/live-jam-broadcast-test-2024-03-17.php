@@ -1,4 +1,6 @@
-<h1 class="pink header">Live Session March 17</h1>
+<a href="studio.php?post=live-jam-broadcast-test-2024-03-17">
+    <h1 class="pink header">Live Session March 17</h1>
+</a>
 <h3 class="aqua date header">2024 03 17</h3>
 <p>
     I wanted to test what a twitch broadcast with the rig might look and sound like, and this is the result.  

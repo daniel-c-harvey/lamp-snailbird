@@ -1,4 +1,6 @@
-<h1 class="pink header">Live Session February 11</h1>
+<a href="studio?post=live-jam-2024-02-11">
+    <h1 class="pink header">Live Session February 11</h1>
+</a>
 <h3 class="aqua date header">2024 02 11</h3>
 <p>
     This was my first jam from scratch on the synths after moving 1000 miles from Detroit to Charleston SC.  

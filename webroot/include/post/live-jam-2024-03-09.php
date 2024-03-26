@@ -1,4 +1,6 @@
-<h1 class="pink header">Live Session March 9</h1>
+<a href="studio.php?post=live-jam-2024-03-09">
+    <h1 class="pink header">Live Session March 9</h1>
+</a>
 <h3 class="aqua date header">2024 03 10</h3>
 <p>
     I spent last saturday morning working on the synth rig and came up with a little 

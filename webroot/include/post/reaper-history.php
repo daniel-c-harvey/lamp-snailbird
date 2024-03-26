@@ -1,4 +1,6 @@
+<a href="studio.php?post=reaper-history">
 <h1 class="pink header">From Software, Hardware, to Everything at Once</h1>
+</a>
 <h3 class="aqua date header">2024 03 01</h3>
 <p>    
     <a href="https://reaper.fm">REAPER</a> has become the beating heart of how 

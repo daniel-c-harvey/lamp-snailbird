@@ -1,4 +1,6 @@
-<h1 class="pink header">Live Session March 24</h1>
+<a href="sutdio.php?post=live-jam-2024-03-24">
+    <h1 class="pink header">Live Session March 24</h1>
+</a>
 <h3 class="aqua date header">2024 03 24</h3>
 <div class="centeredimage">
 <iframe class="youtubeframe"

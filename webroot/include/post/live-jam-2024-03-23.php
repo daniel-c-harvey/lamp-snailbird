@@ -1,4 +1,6 @@
-<h1 class="pink header">Live Session March 23</h1>
+<a href="studio.php?post=live-jam-2024-03-23">
+    <h1 class="pink header">Live Session March 23</h1>
+</a>
 <h3 class="aqua date header">2024 03 23</h3>
 <p>
     Tonight I went to see Love Lies Bleeding.  Rose Glass shredded my heart with 
