@@ -9,7 +9,7 @@
     wanted to listen to while driving around the city at night.  Mostly by serendipity, though.
 </p>
 <div class="centeredimage">
-    <img class=centeredimage"
+    <img class="centeredimage"
     alt="REAPER Digital Audio Workstation session for a Square Peg song" 
     src="images/REAPER/exhale-reaper-session.png"/>
 </div>
