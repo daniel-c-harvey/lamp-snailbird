@@ -1,4 +1,4 @@
-<a href="sutdio.php?post=live-jam-2024-03-24">
+<a href="studio.php?post=live-jam-2024-03-24">
     <h1 class="pink header">Live Session March 24</h1>
 </a>
 <h3 class="aqua date header">2024 03 24</h3>
