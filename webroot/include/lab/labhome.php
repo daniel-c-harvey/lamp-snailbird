@@ -13,10 +13,11 @@
         fundamentals of JUCE, as well as put my C++ axe to the grindstone.
     </p>
     <p>
-        The effect is simply a gate-triggered envelope sequence, with adjustable envelope stage timing and curves.
-        The gates are synced to the plugin host and the sync rate can be modified.  
-        It may have been faster to put something together to do this with REAPER itself, but this was good practice.  
-        You can check out the software on <a href="https://github.com/daniel-c-harvey/QuantaBlocks">GitHub</a>.  
+        The effect is simply a gate-triggered envelope sequence, with adjustable envelope stage timing and curves, 
+        and normal gain.  The gates are synced to the plugin host and the sync rate can be modified.  
+        It may have been faster to put something together to do this with REAPER itself, and even quicker with 
+        Snap Heap, but this was good practice.  You can check out the software on 
+        <a href="https://github.com/daniel-c-harvey/QuantaBlocks">GitHub</a>.  
         The plugin is in development but nearly finished.  
         I'll update the website with the release build plugin when it is complete.
     </p>
