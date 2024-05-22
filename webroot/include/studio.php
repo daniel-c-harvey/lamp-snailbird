@@ -14,6 +14,7 @@
             }
         } else {
             $posts = [
+                'live-jam-2024-05-20',
                 'live-jam-2024-03-23',
                 'live-jam-2024-03-24',
                 'live-jam-broadcast-test-2024-03-17',
