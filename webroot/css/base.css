@@ -57,7 +57,7 @@ h2 {
 	font-weight: 700;
 }
 
-br {
+br, hr {
 	clear: both;
 }
 
@@ -113,6 +113,13 @@ br {
 	padding-bottom: 2%;
 	border: 0px;
 	width: 100%;
+}
+
+.left-image-wrap {
+	float:left;
+	width:30%;
+	margin:5px 10px;
+	padding:0px;
 }
 
 .youtubeframe {

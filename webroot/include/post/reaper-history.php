@@ -30,49 +30,47 @@
     <a href="https://www.blaukraut.info/">BlauKraut's Charlatan</a>, 
     and learning how to sequence MIDI arrangements inside of REAPER.
 </p>
-<div class="mediaflow">
-    <video width="280" height="500" controls>
+<div >
+    <video class="left-image-wrap" controls>
         <source src="video/ephemoral-type-beat-setup.mp4" type="video/mp4">
         Video Not Supported
     </video>
-    <div class="pblock">
-        <p>
-            In 2020 I made a move to a longer term living space, and for the first time in 5
-             years I didn't have to worry about moving out 3 months after I moved in.  
-            I got to work setting up my Bass Station 2 and Minilogue XD from the time 
-            for integration with REAPER, and began to produce songs arranged in the box, 
-            recording takes on the hardware instruments.
-        </p>
-        <p  style="text-align: left">
-            The Bass Station 2 and Minilogue XD starred in <a href="studio.php?page=track/techno-february-2022">this</a> tune:
-            <audio controls src="audio/techno-february-2022.mp3" />
-        </p>
-        <p>
-            I began to try and use the hardware sequencers I had available, 
-            although I never got the hang of the sequencer in the bass station.
-            The rhythm dial was not musically intuitive to me, and the step 
-            sequencing was only useful for patterns that always felt too short.  
-            For a while I attempted to use the Bass Station as accompaniment for myself on drum set along with a guitar buddy
-            The sequencer in the Minilogue XD allowed me to discover motion/CC/CV 
-            sequencing and I quickly yearned for a master sequencer that could conduct 
-            an arrangement more sophisticated than the loopy 1-bar patterns.  
-            At the time my MIDI controller was a LaunchKey Mk3, after selling a 
-            Panorama T-series that I couldn't properly fit on my desktop and had an 
-            over 3-month-long support case to try and use the Nektar DAW integration 
-            that ended up in getting ghosted.  I ended up loving the features of 
-            the LaunchKey for standalone instrument control.  The arpeggiator was 
-            unusually inspiring, unlike the similarly designed rhythm knob on 
-            the Bass Station I got rid of.
-        </p>
-        <p>
-            Three years down this path led me to focusing on hardware instruments, a more 
-            hands-on and expressive way to make electronic music.  
-            I spent a lot of time jamming out simple sequences on an expanding set of hardware.  
-            Throughout 2023 I spent time learning my instruments and dreaming up more 
-            sophisticated ways to make music on that hardware rig.  
-            For the first time ever, playing my synth orchestra began to feel like an instrument. 
-        </p>
-    </div>
+    <p>
+        In 2020 I made a move to a longer term living space, and for the first time in 5
+            years I didn't have to worry about moving out 3 months after I moved in.  
+        I got to work setting up my Bass Station 2 and Minilogue XD from the time 
+        for integration with REAPER, and began to produce songs arranged in the box, 
+        recording takes on the hardware instruments.
+    </p>
+    <p  style="text-align: left">
+        The Bass Station 2 and Minilogue XD starred in <a href="studio.php?page=track/techno-february-2022">this</a> tune:
+        <audio controls src="audio/techno-february-2022.mp3" />
+    </p>
+    <p>
+        I began to try and use the hardware sequencers I had available, 
+        although I never got the hang of the sequencer in the bass station.
+        The rhythm dial was not musically intuitive to me, and the step 
+        sequencing was only useful for patterns that always felt too short.  
+        For a while I attempted to use the Bass Station as accompaniment for myself on drum set along with a guitar buddy
+        The sequencer in the Minilogue XD allowed me to discover motion/CC/CV 
+        sequencing and I quickly yearned for a master sequencer that could conduct 
+        an arrangement more sophisticated than the loopy 1-bar patterns.  
+        At the time my MIDI controller was a LaunchKey Mk3, after selling a 
+        Panorama T-series that I couldn't properly fit on my desktop and had an 
+        over 3-month-long support case to try and use the Nektar DAW integration 
+        that ended up in getting ghosted.  I ended up loving the features of 
+        the LaunchKey for standalone instrument control.  The arpeggiator was 
+        unusually inspiring, unlike the similarly designed rhythm knob on 
+        the Bass Station I got rid of.
+    </p>
+    <p>
+        Three years down this path led me to focusing on hardware instruments, a more 
+        hands-on and expressive way to make electronic music.  
+        I spent a lot of time jamming out simple sequences on an expanding set of hardware.  
+        Throughout 2023 I spent time learning my instruments and dreaming up more 
+        sophisticated ways to make music on that hardware rig.  
+        For the first time ever, playing my synth orchestra began to feel like an instrument. 
+    </p>
 </div>
 <p>
     There were two pieces of gear that took my synth desk from a toy to a usable production environment. 

@@ -14,13 +14,15 @@
             }
         } else {
             $posts = [
-                'live-jam-2024-05-20',
+                'live-jam-2024-06-21',
+                'move-with-the-music',
                 'live-jam-2024-03-27',
                 'live-jam-2024-03-23',
                 'live-jam-2024-03-24',
                 'live-jam-broadcast-test-2024-03-17',
                 'live-jam-2024-03-09',
                 'live-jam-2024-02-11',
+                //'reaper-history',
                 'square-peg-history'
             ];
             
