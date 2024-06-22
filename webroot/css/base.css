@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .aqua {
-	color: #40A79C;
+	color: #12caca;
 }
 
 .gold {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .teal {
-	color: #00B675;
+	color: #00b69e;
 }
 
 .lavender {
@@ -57,15 +57,9 @@ h2 {
 	font-weight: 700;
 }
 
-br {
+br, hr {
 	clear: both;
 }
-
-ul {
-	color: #404040;
-}
-
-
 
 #contentstrip {
     background-color: #10181d;
@@ -92,12 +86,13 @@ ul {
 }
 
 .post {
+	font-size: 0.9em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-top: 16px;
+	padding-bottom: 10px;
 	mask-image: none;
 	mask-size: 100% 100%;
 	mask-repeat: no-repeat;
@@ -118,6 +113,19 @@ ul {
 	padding-bottom: 2%;
 	border: 0px;
 	width: 100%;
+}
+
+.left-image-wrap {
+	float:left;
+	width:30%;
+	margin:5px 10px;
+	padding:0px;
+}
+
+.youtubeframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .bandcampplayer {
@@ -171,6 +179,17 @@ ul {
 .pblock>p {
 	margin-top: 0;
 	margin-bottom: 12px;
+}
+
+.songdetails {
+	color: #bababa;
+	list-style-type: katakana;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.8em;
+}
+
+.songdetails .instrument {
+	color:#3bb662;
 }
 
 @font-face {

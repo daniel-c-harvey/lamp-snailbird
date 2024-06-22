@@ -1,8 +1,8 @@
 <div id="main">
     <div class="post">
-        <h1 class="teal header">Site under construction</h1>
+        <h2 class="aqua header">Welcome to Snailbird!</h2>
         <p class="centeredtext">
-            Welcome to Snailbird!  The Lab is home to homebrew software for computer musicians.  
+            The Lab is home to homebrew software for computer musicians.  
             The Studio is home to music made with electronic machines.  
             Feel free to explore as the site expands to host my projects.
         </p>

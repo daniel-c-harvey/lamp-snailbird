@@ -7,9 +7,13 @@
         "contentstrip",
         "ephemoral",
         "expandpost",
+        "labhome",
         "mediaflow",
         "morecontent",
-        "pblock"
+        "pblock",
+        "snailbirdjsfx",
+        "songdetails",
+        "youtubeframe"
     ],
     "cSpell.ignoreWords": [
         "Fsquare"
