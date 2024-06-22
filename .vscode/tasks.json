@@ -23,7 +23,8 @@
         {
             "label": "Package for Deployment",
             "type": "shell",
-            "command": "rm full-package-deploy.zip; cd webroot; zip -r ../full-package-deploy.zip ./*; explorer ..;", // todo fix this zip
+            // "command": "rm full-package-deploy.zip; cd webroot; zip -r ../full-package-deploy.zip ./*; scp -i /c/.ssh/dch5root_rsa full-package-deploy.zip root@dch5.snailbird.net:/var/www/snailbird.net/html/snailbird",
+            "command": "scp -r -i /c/.ssh/dch5root_rsa webroot/* root@dch5.snailbird.net:/var/www/snailbird.net/html/snailbird",
             "group": "none"
         }
     ]
