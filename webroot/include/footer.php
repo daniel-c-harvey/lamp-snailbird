@@ -1,8 +1,6 @@
 <?php linkToStylesheet('footer.css'); ?>
-<div id="footerbox">
-	<ul class="foot">
-		<li><a href="about.php">Daniel Harvey</a> &nbsp;| &nbsp;</li>
-		<li>Snailbird Studios &nbsp;| &nbsp;</li>
-		<li><a href="mailto:daniel@snailbird.net">daniel@snailbird.net</a></li>
-	</ul>
+<div class="footer">
+		<div class="item"><a href="about.php">Daniel Harvey</a></div>
+		<div class="item">Snailbird Studios</div>
+		<div class="item"><a href="mailto:daniel@snailbird.net">daniel@snailbird.net</a></div>
 </div>

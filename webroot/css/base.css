@@ -184,13 +184,13 @@ br, hr {
 .songdetails {
 	color: #bababa;
 	/* list-style-image: url('/images/icons/knob.png') ; */
-	list-style-type: '🎛';
+	list-style-type: '🔈';
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 0.8em;
 }
 
 .songdetails .instrument {
-	color:#3bb662;
+	color:#61e1b8;
 }
 
 @font-face {

@@ -14,6 +14,7 @@
             }
         } else {
             $posts = [
+                'mega-mix-2024',
                 'live-jam-2024-06-21',
                 'move-with-the-music',
                 'live-jam-2024-03-27',
