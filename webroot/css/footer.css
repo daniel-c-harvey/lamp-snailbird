@@ -1,26 +1,25 @@
-#footerbox {
+.footer {
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
     font-family: ImpactLabel;
     color: #3F3F3F;
     text-align: center;
     padding-bottom: 6px;
-    margin-bottom: 24px;
-}
-
-ul.foot {
-    text-align: center;
-
-}
-
-ul.foot li {
-    display: inline;
+    padding-top: 6px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: #666699;
-    position: relative;
 }
 
-ul.foot a {
-    color: #666699;
+.footer .item {
+    margin-left: 42px;
+}
+
+.footer .item a {
+    color: #8a6699;
 }
 
 @font-face {
